@@ -1,14 +1,14 @@
+import { NavigationMenu } from "@/components/ui/navigation-menu";
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>
+      <main className="flex h-screen flex-col items-center justify-between p-24">
+      <NavigationMenu />
+        <h1 className="text-4xl font-bold flex h-screen">
           Seja bem-vindo ao Trabalho de Versionamento de Software!
-          <br />
         </h1>
         <p>
-          Todas as informações necessárias realização do trabalho encontra-se no
-          arquivo <span className="">README.md</span>
+          Por: Matheus Meigre
         </p>
       </main>
     </>
